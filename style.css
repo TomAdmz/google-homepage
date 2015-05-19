@@ -1,0 +1,124 @@
+/********
+HEADER
+*********/
+
+.pics {
+	max-width: 2.3%;
+	height: auto;
+	opacity: .8;
+}
+
+.pics:hover {
+	opacity: 1;
+}
+
+#nav {
+	text-align: right;
+}
+
+#nav a {
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 4px;
+}
+
+#me, #gmail, #images {
+	color: black;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+#me:hover, #gmail:hover, #images:hover {
+	text-decoration: underline;
+}
+
+#profile {
+	border-radius: 30px;
+	max-width: 3.5%;
+	height: auto;
+	opacity: 1;
+}
+
+/**********
+	BODY
+***********/
+
+#google_image {
+	max-width: 26%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+}
+
+#search {
+	height: 25px;
+	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 6;
+}
+
+.s_buttons {
+	margin-top: 15px;
+	z-index: 50;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	border: 1px solid gray; 
+	padding: 8px;
+	opacity: .6;
+	border-radius: 3px;
+}
+
+.s_buttons:hover {
+	opacity: 1;
+}
+
+#gsearch {
+	margin-left: 38%;
+}
+
+#lucky {
+	margin-left: 5px;
+}
+
+/******
+FOOTER
+*******/
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 8%;
+	font-family: arial;
+}
+
+#left_side {
+	margin-left: 30px;
+	float: left;
+	padding: 15px 0 10px 0;
+}
+
+#right_side {
+	padding: 15px 0 10px 0;
+	margin-right: 40px;
+	float: right;
+}
+
+#left_side a, #right_side a {
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 14px;
+	color: black;
+}
+
+#left_side a:hover, #right_side a:hover {
+	text-decoration: underline;
+}
